@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="contactStyle.css">
+  <link rel="stylesheet" href="utils.css">
+</head>
+
+<body>
+  <div class="container mx-auto">
+    <header>
+        <nav class="flex justify-between">
+            <div class="logo font-bold flex items-center text-blue">Fitness Club</div>
+            <ul class="navbar flex items-center">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+                <li><button class="btn">Join Now</button></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+      <div class="contactForm">
+        <h1>Contact me for general enquiries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientEmail" class="form-label">Name</label>
+            <input type="name" class="form-control" id="clientName" aria-describedby="nameHelp">
+          </div>
+          <div class="mb-3">
+            <label for="clientEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="clientPhone" class="form-label">Phone</label>
+            <input type="phone" class="form-control" id="clientPhone">
+          </div>
+          <div class="mb-3">
+            <label for="clientEmail" class="form-label">Enquiry</label>
+            <input type="enquiry" class="form-control" id="enquiry" aria-describedby="enquiry">
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+      <hr>
+      <footer>
+        Copyright &copy; Fitnessclub.com | All rights reserved
+    </footer>
+    </div>
+</body>
+</html>
