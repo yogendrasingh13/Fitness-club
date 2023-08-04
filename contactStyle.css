@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 80vw;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    margin: 0 12px;
+}
+.logo{
+    font-size: 1.3rem;
+}
+
+.contactForm {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 88px;
+    color: black;
+    margin-bottom: 155px;
+}
+
+.contactForm h1 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 38px;
+}
+
+.contactForm form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form {
+    margin: 0 40px;
+}
+
+.contactForm form div input{
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: black;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 25px;
+    margin: 3px 0;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    background-color: rgb(0, 234, 74);
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: cadetblue;
+    background-color: white;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+
